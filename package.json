@@ -1,0 +1,53 @@
+{
+    "name": "uniform-developer-extension-pack",
+    "displayName": "uniform.developer-extension-pack",
+    "description": "VS Code developer extension pack",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [
+        "adambaldwin.vscode-nsp",
+        "afractal.node-essentials",
+        "alefragnani.project-manager",
+        "ayudh.lock-file-notifier",
+        "bajdzis.vscode-database",
+        "bungcip.better-toml",
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "ckolkman.vscode-postgres",
+        "DavidAnson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "donjayamanne.githistory",
+        "dsznajder.es7-react-js-snippets",
+        "eamodio.gitlens",
+        "eamodio.toggle-excluded-files",
+        "EditorConfig.EditorConfig",
+        "eg2.vscode-npm-script",
+        "EQuimper.react-native-react-redux",
+        "folke.vscode-monorepo-workspace",
+        "GitHub.vscode-pull-request-github",
+        "GraphQL.vscode-graphql",
+        "HookyQR.beautify",
+        "humao.rest-client",
+        "IBM.output-colorizer",
+        "jamesqquick.netlify-toml-snippets",
+        "jasonnutter.search-node-modules",
+        "magnobiet.essential-extension-pack",
+        "mikestead.dotenv",
+        "mkloubert.vscode-http-client",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "msjsdiag.debugger-for-chrome",
+        "Orta.vscode-jest",
+        "shailen.netlify",
+        "streetsidesoftware.code-spell-checker",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "vlazh.yarn-update-deps",
+        "wayou.vscode-todo-highlight",
+        "wix.vscode-import-cost",
+        "wmaurer.change-case"
+    ]
+}
