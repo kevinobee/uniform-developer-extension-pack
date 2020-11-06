@@ -1,4 +1,4 @@
-# Uniform Developer VS Coder Extension Pack
+# VS Code Extension Pack for Uniform Developers
 
 The repository contains a [VS Code Extension Pack](https://code.visualstudio.com/blogs/2017/03/07/extension-pack-roundup) for working with the [Uniform.Dev](https://github.com/uniformdev) code base.
 
