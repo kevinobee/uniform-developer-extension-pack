@@ -1,10 +1,23 @@
 {
     "name": "uniform-developer-extension-pack",
-    "displayName": "uniform.developer-extension-pack",
-    "description": "VS Code developer extension pack",
+    "displayName": "Uniform developer extension pack",
+    "description": "VS Code developer extension pack for Uniform development",
     "version": "0.0.1",
+    "publisher": "kevinobee",
     "engines": {
         "vscode": "^1.50.0"
+    },
+    "icon": "code-tools-icon.png",
+    "galleryBanner": {
+        "color": "#295387",
+        "theme": "dark"
+    },
+    "repository": {
+        "url": "https://github.com:kevinobee/uniform-developer-extension-pack"
+    },
+    "homepage": "https://github.com:kevinobee/uniform-developer-extension-pack",
+    "bugs": {
+        "url": "https://github.com:kevinobee/uniform-developer-extension-pack/issues"
     },
     "categories": [
         "Extension Packs"
