@@ -1,16 +1,10 @@
-# README
+# Uniform Developer VS Coder Extension Pack
 
-## This is the README for your extension pack "uniform-developer-extension-pack"
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+The repository contains a [VS Code Extension Pack](https://code.visualstudio.com/blogs/2017/03/07/extension-pack-roundup) for working with the [Uniform.Dev](https://github.com/uniformdev) code base.
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+* [Uniform.Dev GitHub](https://github.com/uniformdev)
+* [Extension Packs](https://code.visualstudio.com/blogs/2017/03/07/extension-pack-roundup)
 
 **Enjoy!**
