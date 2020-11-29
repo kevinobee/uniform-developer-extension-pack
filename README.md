@@ -17,6 +17,9 @@ ext install uniform-developer-extension-pack
 Make sure you have [Node.js](https://nodejs.org/) installed. Then run:
 
 ```shell
+# install dependencies
+npm install
+
 # create a .vsix package
 npm run package
 
