@@ -63,5 +63,12 @@
         "wayou.vscode-todo-highlight",
         "wix.vscode-import-cost",
         "wmaurer.change-case"
-    ]
+    ],
+    "scripts": {
+        "package": "npx vsce package",
+        "publish": "npx vsce publish"
+    },
+    "devDependencies": {
+        "vsce": "^1.81.1"
+    }
 }
