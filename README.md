@@ -18,10 +18,10 @@ Make sure you have [Node.js](https://nodejs.org/) installed. Then run:
 
 ```shell
 # create a .vsix package
-npx vsce package
+npm run package
 
 # publish uniform-developer-extension-pack-Major.Minor.Patch.vsix to VS Code MarketPlace
-npx vsce publish
+npm run publish
 ```
 
 ## For more information
