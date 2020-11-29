@@ -22,6 +22,7 @@ npx vsce package
 
 # publish uniform-developer-extension-pack-Major.Minor.Patch.vsix to VS Code MarketPlace
 npx vsce publish
+```
 
 ## For more information
 
