@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x]
+        node-version: [12.x]
 
     steps:
     - uses: actions/checkout@v2
@@ -17,9 +17,33 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: npm audit
-    - run: npm run package
-    # - run: npm run publish
+    - run: |
+        npm install
+        npm audit
+    - name: Create VSIX package
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: |
+        npm run package
+    - name: Archive production artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: dist-without-markdown
+        path: |
+          dist
+          !dist/**/*.md
+    - name: Archive production vsix
+      uses: actions/upload-artifact@v2
+      with:
+        name: dist-vsix
+        path: |
+          *.vsix
+    # - name: Publish VSIX package
+    #   uses: actions/setup-node@v1
+    #   with:
+    #     node-version: ${{ matrix.node-version }}
+    # - run: |
+    #     npm run publish
       env:
         CI: true
